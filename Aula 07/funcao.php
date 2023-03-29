@@ -1,12 +1,15 @@
 <?php 
 
-	function somaValor(){
-		$num1 = 10;
-		$num2 = 10;
-		$res = ($num1 + $num2);
-		echo "Soma é " . $res;
+	function somaValor($num1, $num2){
+		return $num1 + $num2;
 	}
 
-	somaValor();
+	function imprimir($resp){
+		echo "A soma é " . $resp;
+	}
+
+	// imprimir(somaValor(2,2)); # modo "hard"
+	$resultado = somaValor(2,2);
+	imprimir($resultado);
 
 ?>
