@@ -16,24 +16,34 @@
 
 	function dividir($x, $y){
 		if($y == 0){
-			echo "<br/> IMPOSSÍVEL CALCULAR!";
+			echo "<br/> <b>IMPOSSÍVEL CALCULAR!</b>";
 		} else{
 			return $x / $y;
 		}
 	}
 
 	function imprimi($opcao, $operacao){
-		$fmt = sprintf("OPÇÃO: %s <br/>RESULTADO %d ", $opcao, $operacao);
+		$fmt = sprintf("OPERAÇÃO: %s <br/>RESULTADO: %d ", $opcao, $operacao);
 		echo $fmt;
+	}
+
+	function menu(){
+		echo "[1] - ADIÇÃO<br/>";
+		echo "[2] - SUBTRAÇÃO<br/>";
+		echo "[3] - MULTIPLICAÇÃO<br/>";
+		echo "[4] - DIVISÃO<br/>";
+		echo "<hr/>";
 	}
 
 	# Variáveis
 
-	$a = 10;
+	$a = 22;
 	$b = 20;
 	$op = '+';
 
 	# Operações;
+
+	menu();
 
 	switch ($op) {
 		case '+':
