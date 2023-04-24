@@ -13,4 +13,5 @@ Repositório com os códigos desenvolvidos durante as aulas de **Programação W
 7. [Funções](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2007)
 8. [Arquivo externos](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2008)
 9. [Arrays](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2009)
-10. [Arrays - Funções](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2010)
+10. [Arrays - Atividade III](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2010)
+11. [Matrizes](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2011)
