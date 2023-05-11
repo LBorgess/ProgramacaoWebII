@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário - Eventos</title>
+</head>
+<body>
+	<h2>Eventos</h2>
+	<form name="cadastro" method="get" action="pagina_form.php">
+		Nome: <input type="text" name="nome" size="40" maxlength="20" autocomplete="off"> <br><br>
+		<input type="submit" name="ENVIAR">
+		<br><br>
+		<a href="#" onclick="document.cadastro.reset()">LIMPAR</a>
+	</form>
+
+	<button onclick="window.location.href='http://google.com.br'">Google</button>
+
+	<button onclick="window.location.reload()">Atualizar página</button>
+
+	<button onclick="window.location.print()">Imprimir</button>
+
+	<button onclick="window.location.back()">Voltar</button>
+
+</body>
+</html>

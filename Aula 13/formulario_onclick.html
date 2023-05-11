@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário - Evento Onclick</title>
+</head>
+<body>
+	<h2>Onclick</h2>
+	<form name="cadastro" method="get" action="pagina_form.php">
+		Nome: <input type="text" name="nome" size="40" maxlength="20" autocomplete="off"> <br><br>
+		<input type="submit" name="ENVIAR">
+		<br><br>
+		<a href="#" onclick="document.cadastro.reset()">LIMPAR</a>
+	</form>
+</body>
+</html>
