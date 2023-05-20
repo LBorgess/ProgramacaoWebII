@@ -7,7 +7,9 @@
 	<title>Gasto de Combustivel</title>
 </head>
 <body>
-	<h2>Resultado</h2>
+
+	<h2 class="p-2 m-2 justify-content-center align-items-center row">Resultado</h2>
+	
 	<?php 
 
 	$tempo = $_POST['tempo'];
@@ -15,20 +17,24 @@
 
 	if ($tempo == null || $velocidade == null) {
 
-		echo ("<div class='alert alert-danger' role='alert'>Favor insira dados válidos.</div>");
+		echo ("<div class='alert alert-danger justify-content-center align-items-center row' role='alert'>Favor insira dados válidos.</div>");
 
 	} else {
 
 		$distancia = ($tempo * $velocidade);
 		$litros = ($distancia / 12);
 
-		$fmt = sprintf("Gastou-se %.2f L de combustível na viagem", $litros);
+		$resultado = sprintf("<div class=\"alert alert-success justify-content-center align-items-center row\">Você gastou&nbsp;<strong>%.2f</strong>&nbsp;litros de combustível.</div>", $litros);
 
-		echo $fmt;
+		echo $resultado;
 
 	}
 
 	?>
+
+	<div class="p-2 m-2 justify-content-center align-items-center row">
+		<a class="btn btn-primary" href="./gasto.html">Voltar</a>
+	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
