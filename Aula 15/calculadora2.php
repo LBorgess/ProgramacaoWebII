@@ -1,4 +1,19 @@
-<?php 
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Bootstrap -->	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Calculadora</title>
+</head>
+<body style="background-color: #e9efe9;">
+
+	<h3 class="text-center p-2">Resultado</h3>
+
+	<?php 
 	
 	function somar($x, $y){	return $x + $y;}	
 	function subtrai($x, $y){return $x - $y;}	
@@ -34,22 +49,19 @@
 	}
 
 ?>
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<!-- Bootstrap -->	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<div class="container text-center p-2">
+		<div class="row justify-content-center align-items-center">
+			<div class="alert alert-info" role="alert">
+				<?php 
 
-	<title>Calculadora</title>
-</head>
-<body>
+					echo $res;
 
+				?>
+			</div>
+		</div>
+	</div>
 
-	<h3 class="text-center p-2">Resultado</h3>
 
 
 	<div class="justify-content-center align-items-center row">
