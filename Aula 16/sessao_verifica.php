@@ -6,7 +6,7 @@
 	<title>Verifica Sessão</title>
 	<?php 
 		session_start();
-		if ($_SESSION['nome'] != "master") {
+		if (!($_SESSION['nome'] == "master")) {
 			session_destroy();
 			header("location:sessao_bloqueando.php");	
 		}
