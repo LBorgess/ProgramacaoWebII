@@ -53,10 +53,11 @@
 
 	<div class="container row justify-content-center align-items-center">
 		<?php echo $msg; ?>
-	</div>	
+	</div>
 
-		<img class="img-thumbnail " src="./img/<?php echo $time . ".svg"; ?>">
-	
+	<?php if($time != "null"): ?>	
+		<img class="img-thumbnail " src="./img/<?php echo $time . ".svg"; ?>">	
+	<?php endif ?>
 	</div>
 	
 	    <!-- JavaScript (Opcional) -->
