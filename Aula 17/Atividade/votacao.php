@@ -13,6 +13,8 @@
 			$time = "sa"; break;
 		case 4:
 			$time = "pa"; break;
+		default:
+			$time = "null"; break;
 	}
 
 	if (!isset($_COOKIE['voto'])) {
@@ -41,7 +43,7 @@
 
 	<style>
 		img {
-			width: 100px;
+			width: 150px;
 		}
 	</style>
 </head>
@@ -54,6 +56,7 @@
 	</div>	
 
 		<img class="img-thumbnail " src="./img/<?php echo $time . ".svg"; ?>">
+	
 	</div>
 	
 	    <!-- JavaScript (Opcional) -->
