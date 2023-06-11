@@ -15,33 +15,31 @@
     <title>Votação</title>
   </head>
   <body>
-    <h2 class="text-center">Votação</h2>
+    <h1 class="text-center mt-3">Votação</h1>
 
     <div class="container">
 
-      <p class="text-center">
-        Vote em seu time do coração.
+      <p class="text-center h3">
+        Vote no seu time do coração.
       </p>
 
       <form action="votacao.php" method="GET">
 
-      <div class="input-group mb-3">
+      <div class="input-group mb-3 mt-3">
         <div class="input-group-prepend">
         <label class="input-group-text" for="times">Times</label>
       </div>
-
           <select class="custom-select" id="times" name="voto" id="voto">
-          <option value="null"></option>
-          <option value="1">Corinthians</option>
-          <option value="2">São Paulo</option>
-          <option value="3">Santos</option>
-          <option value="4">Palmeiras</option>
-          </select>
-          
+            <option value="null"></option>
+            <option value="1">Corinthians</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Santos</option>
+            <option value="4">Palmeiras</option>
+          </select>          
       </div>
 
       <div class="container row justify-content-center align-items-center">
-        <button class="btn btn-success" type="submit">Enviar</button>
+        <button class="btn btn-success btn-block mt-2" type="submit">Enviar</button>
       </div>
 
       </form>
