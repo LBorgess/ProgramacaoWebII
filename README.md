@@ -1,19 +1,10 @@
 # Programação Web II
 
-Repositório com os códigos desenvolvidos durante as aulas de **Programação Web II** 
+A estrutura desse repositório está passando por modificações na branch *ajuste*
+
+Irá seguir o mesmo fluxo dos arquivos disponibilizados durante as aulas. 
 
 ## Índice
 
-1. [Introdução](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2001)
-2. [Básico](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2002)
-3. [Variáveis](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2003)
-4. [Constantes e Escopos](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2004)
-5. [Decisão - Atividade I](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2005)
-6. [Loops - Atividade II](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2006)
-7. [Funções](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2007)
-8. [Arquivo externos](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2008)
-9. [Arrays](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2009)
-10. [Arrays - Atividade III](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2010)
-11. [Matrizes, Strings, Data e Hora](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2011)
-12. [Formulário - Parte 1](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2012)
-13. [Formulário - Parte 2](https://github.com/LBorgess/ProgramacaoWebII/tree/master/Aula%2012)
+O índice será reformulado
+
