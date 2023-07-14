@@ -1,5 +1,0 @@
-<?php
-
-	print(date('Y'));
-
-?>
